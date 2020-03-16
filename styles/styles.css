@@ -1,0 +1,142 @@
+.heading {
+    background: url(/img/background.jpeg) no-repeat center center/cover;
+    color: black;
+    /* height: 80%vh; */
+    margin: 0 80px;   
+    
+}
+
+
+.plex-heading li {
+    /* height: 50px;
+    width: 40px; */
+    display: inline;
+    padding-left: 60px;
+    text-align: center;
+    
+    
+}
+
+.plex-heading {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+li {
+    flex: 1;
+    margin: 10px 20px;
+   
+}
+
+ul { 
+overflow-x:hidden;
+white-space:nowrap; 
+height: 300px;
+width: 100%;
+padding-left: 10px;
+padding-top: 40px;
+text-align: end;
+margin-right: 40px;
+
+} 
+
+.heading li {
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.plex-left img {
+    width: 100px;
+    height: 50px;
+    padding-left: 5px;
+    text-align: start;
+    
+    
+}
+
+.register {
+    background-color: #E5A00D;
+    width: 30px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 13px 36px 15px;
+    margin: 0 0 0 20px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+       
+.streame-parag {
+    text-align: center;
+    /* padding-bottom: 30px; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+  
+}
+
+.medien img {
+    height: 30px;
+    width: 30px;
+}
+
+ 
+
+.live img, .kostenlose img, .musik img {
+    height: 40px;
+    width: 40px;
+}
+
+.buttom {
+    display: flex;
+    /* margin: 20px; */
+    margin-top: 60px;
+
+}
+
+.medien, .musik, .live, .kostenlose {
+    flex: 1;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.medien:hover, .musik:hover, .live:hover, .kostenlose:hover {
+    background-color: white;
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.subtitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.minisubtitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: #E5A00D;
+    width: 190px;
+    height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 18px 36px 15px;
+}
+
+
+
