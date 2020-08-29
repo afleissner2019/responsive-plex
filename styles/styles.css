@@ -5,7 +5,7 @@ body {
 }
 
 .heading {
-    background: url(/img/background.jpeg) no-repeat center center/cover;
+    background: url(./img/background.jpeg) no-repeat center center/cover;
     color: black;
     
     
@@ -14,7 +14,7 @@ body {
 @media screen and (min-width: 300px) and (max-width: 2800px) {
     .heading {
         width: 100%;
-        background: url(/img/background.jpeg) no-repeat center center/cover;
+        background: url(./img/background.jpeg) no-repeat center center/cover;
 
     }
     /* .buttom {
